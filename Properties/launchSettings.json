@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ACT": {
+      "commandName": "Executable",
+      "executablePath": "D:\\SteamLibrary\\steamapps\\common\\Another Crab's Treasure\\AnotherCrabsTreasure.exe",
+      "workingDirectory": "D:\\SteamLibrary\\steamapps\\common\\Another Crab's Treasure"
+    }
+  }
+}
