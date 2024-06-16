@@ -1,8 +1,8 @@
 {
-  "name": "Another Crab's QoL'",
-  "version_number": "0.1.0",
-  "website_url": "",
-  "description": "Adds some quality of life improvements to the game",
+  "name": "ACTQoL",
+  "version_number": "0.2.1",
+  "website_url": "https://github.com/GamingInfinite/ACTQoL",
+  "description": "Adds some quality of life improvements to the game (WIP)",
   "dependencies": [
     "BepInEx-BepInExPack-5.4.2100"
   ]
