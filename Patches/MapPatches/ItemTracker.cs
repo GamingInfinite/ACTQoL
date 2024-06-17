@@ -59,6 +59,7 @@ namespace ACTQoL.Patches.MapPatches
                     continue;
                 }
                 GameObject itemIcon = GameObject.Instantiate(icon, mapOverlay.transform);
+                itemIcon.name = "Custom Map Icon";
                 if (itemSprite != null)
                 {
                     itemIcon.GetComponent<Image>().sprite = itemSprite;

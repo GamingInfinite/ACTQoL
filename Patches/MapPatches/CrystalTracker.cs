@@ -38,6 +38,7 @@ namespace ACTQoL.Patches.MapPatches
                 if (enemy.umamiDrops > 0)
                 {
                     GameObject crystalIcon = GameObject.Instantiate(icon, mapOverlay.transform);
+                    crystalIcon.name = "Custom Map Icon";
                     if (crystalSprite != null)
                     {
                         crystalIcon.GetComponent<Image>().sprite = crystalSprite;

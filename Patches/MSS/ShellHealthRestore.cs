@@ -1,8 +1,8 @@
 ﻿using HarmonyLib;
 
-namespace ACTQoL.Patches
+namespace ACTQoL.Patches.MSS
 {
-    [HarmonyPatch(typeof(MoonSnailShell), nameof(MoonSnailShell.SpawnPlayer))]
+    [HarmonyPatch(typeof(MoonSnailShell), nameof(MoonSnailShell.Rest))]
     internal class ShellHealthRestore
     {
         [HarmonyPostfix]
