@@ -1,7 +1,6 @@
 ﻿using ACTQoL.Extensions;
 using HarmonyLib;
 using System.Collections.Generic;
-using System.Reflection;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -37,7 +36,7 @@ namespace ACTQoL.Patches.MapPatches
                 }
                 if (enemy.umamiDrops > 0)
                 {
-                    GameObject crystalIcon = GameObject.Instantiate(icon, mapOverlay.transform);
+                    GameObject crystalIcon = Object.Instantiate(icon, mapOverlay.transform);
                     crystalIcon.name = "Custom Map Icon";
                     if (crystalSprite != null)
                     {

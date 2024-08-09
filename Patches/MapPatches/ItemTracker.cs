@@ -1,9 +1,7 @@
 ﻿using ACTQoL.Extensions;
 using ACTQoL.Utils;
 using HarmonyLib;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -28,18 +26,21 @@ namespace ACTQoL.Patches.MapPatches
 
             foreach (Item item in items)
             {
-                string itemName = item.DisplayName.Replace("Item_", "").Replace("_Name","").ToLower();
+                string itemName = item.DisplayName.Replace("Item_", "").Replace("_Name", "").ToLower();
                 string resourceName;
                 if (ItemNameToResource.ItemToResource.ContainsKey(itemName))
                 {
                     resourceName = ItemNameToResource.ItemToResource[itemName];
-                }else if (itemName.Contains("stowaway"))
+                }
+                else if (itemName.Contains("stowaway"))
                 {
                     resourceName = "stowaways";
-                } else if (itemName.Contains("claw"))
+                }
+                else if (itemName.Contains("claw"))
                 {
                     resourceName = "junk";
-                } else if (itemName.Contains("costume"))
+                }
+                else if (itemName.Contains("costume"))
                 {
                     resourceName = "costume";
                 }

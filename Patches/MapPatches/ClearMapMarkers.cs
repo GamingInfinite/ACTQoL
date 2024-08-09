@@ -1,7 +1,4 @@
 ﻿using HarmonyLib;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using UnityEngine;
 
 namespace ACTQoL.Patches.MapPatches
@@ -14,7 +11,7 @@ namespace ACTQoL.Patches.MapPatches
         {
             foreach (GameObject marker in ModMain.mapMarkers)
             {
-                GameObject.Destroy(marker);
+                Object.Destroy(marker);
             }
             ModMain.mapMarkers.Clear();
             ModMain.RenderWorldMarkers = true;

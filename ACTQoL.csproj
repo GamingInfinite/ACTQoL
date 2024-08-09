@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <ACT>D:\SteamLibrary\steamapps\common\Another Crab's Treasure</ACT>
+    <ACT>C:\Program Files (x86)\Steam\steamapps\common\Another Crab's Treasure</ACT>
     <BepinCore>$(ACT)\BepInEx\core</BepinCore>
     <Managed>$(ACT)\AnotherCrabsTreasure_Data\Managed</Managed>
     <OutputFolder>$(ACT)\BepInEx\plugins</OutputFolder>
